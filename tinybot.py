@@ -1,5 +1,5 @@
-from common import Direction, Point
-from client import BaseClient
+from snakeworld.common import Direction, Point
+from snakeworld.client import BaseClient
 
 
 class tinyBot(BaseClient):
@@ -37,5 +37,5 @@ class tinyBot(BaseClient):
 
         return direction
 
-bot = tinyBot('KhamaBot')
+bot = tinyBot('KhamaTest')
 bot.run_until_complete()
